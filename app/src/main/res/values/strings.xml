@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CS Paint</string>
+    <string name="menu_save">SAVE</string>
+    <string name="title_activity_title">Title</string>
+    <string name="start_button">START</string>
+    <string name="cspaint">CSPaint</string>
+    <string name="logo">logo</string>
+</resources>

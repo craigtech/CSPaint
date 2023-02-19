@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Title">
+
+    <Button
+        android:id="@+id/start_button"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="@string/start_button" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:scaleX="4"
+        android:scaleY="4"
+        app:srcCompat="@mipmap/cspaint_icon_foreground"
+        android:contentDescription="@string/logo" />
+
+    <TextView
+        android:id="@+id/cspaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:fontFamily="@font/acme"
+        android:text="@string/cspaint"
+        android:textAlignment="center"
+        android:textColor="@color/orange_700"
+        android:textSize="96sp"
+        android:layout_marginTop="35dp"/>
+
+</RelativeLayout>
